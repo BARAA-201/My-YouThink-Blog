@@ -1,0 +1,9 @@
+.nav-item a {
+    color: #ccc;
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+.nav-item a.active {
+    color: white;
+}
