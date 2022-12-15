@@ -5,10 +5,10 @@ import { Link, NavLink } from 'react-router-dom';
 function Navbar() {
 
     return (
-        <div>
+        
         <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
             <div className="container">
-                <img src="" alt={""} />
+                <img src="https://youthink.la/wp-content/themes/youthinkadult/assets/images/logo.svg" alt={""} />
                 <div>
                     <ul className="mb-0 d-flex nav-menu">
                         <ul className="nav-item">
@@ -21,7 +21,7 @@ function Navbar() {
                 </div>
             </div>
         </nav>
-        </div>
+       
     )
 }
 

@@ -7,7 +7,7 @@ import React from 'react';
 
 
 
-function Blog() {
+function BlogData() {
 
     const [posts, setPosts] = useState([])
     const [currentPage, setCurrentPage] = useState(0)
@@ -32,10 +32,10 @@ function Blog() {
                     } else {
                         setShowMore(false)
                     }
-                    setLoading(true)
+                    setLoading(false)
                 })
             })
-            // .catch(e => console.log(e))
+            .catch(e => console.log(e))
     }
 
     return (
@@ -69,4 +69,4 @@ function Blog() {
     )
 }
 
-export default Blog;
+export default BlogData;

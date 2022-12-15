@@ -5,7 +5,7 @@ import Loading from '../blog/LoadingPage';
 
 import './../post/Post.css'
 
-const PostData = () => {
+function PostData ()  {
     const params = useParams()
     const [post, setPost] = useState({})
     const [loading, setLoading] = useState(true)

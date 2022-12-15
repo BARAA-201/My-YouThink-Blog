@@ -1,6 +1,7 @@
+
 import Sidebar from "../sideBar/Sidebar"
 
-function Blog({title, children})  {
+function Blogs({ title, children })  {
     return (
         <div>
             <section className="py-5 mb-5 bg-light">
@@ -8,23 +9,16 @@ function Blog({title, children})  {
                     <div className="row">
                         <div className="col">
                             <h1 dangerouslySetInnerHTML={{__html: title}}></h1>
-                            
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="py-5 mb-5 bg-light">
-                <div className="container">
-                    <div className="row">
-                        <div className="col">
-                        </div>
-                    </div>
-                </div>
-            </section>
+            
             <section className="mb-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8">{children}</div>
+                        
                         <Sidebar />
                     </div>
                 </div>
@@ -33,4 +27,4 @@ function Blog({title, children})  {
     )
 }
 
-export default Blog;
+export default Blogs;
