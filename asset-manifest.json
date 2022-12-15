@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/My-YouThink-Blog/static/css/main.491c8a13.css",
+    "main.js": "/My-YouThink-Blog/static/js/main.8a76884c.js",
+    "static/media/slider1.png": "/My-YouThink-Blog/static/media/slider1.66d34f84b337177b9a37.png",
+    "static/media/slider2.jpg": "/My-YouThink-Blog/static/media/slider2.1b4dcd646e751e5b09aa.jpg",
+    "static/media/bootstrap-icons.woff?": "/My-YouThink-Blog/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
+    "static/media/bootstrap-icons.woff2?": "/My-YouThink-Blog/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
+    "index.html": "/My-YouThink-Blog/index.html",
+    "main.491c8a13.css.map": "/My-YouThink-Blog/static/css/main.491c8a13.css.map",
+    "main.8a76884c.js.map": "/My-YouThink-Blog/static/js/main.8a76884c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.491c8a13.css",
+    "static/js/main.8a76884c.js"
+  ]
+}
