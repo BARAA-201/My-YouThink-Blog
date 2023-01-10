@@ -13,7 +13,7 @@ function Navbar() {
                     <ul className="mb-0 d-flex nav-menu">
                         <ul className="nav-item">
                             <NavLink to={'/'}>
-                                <Link to={'/'} className='nav-item active'>Home </Link>
+                                <Link to={'/My-YouThink-Blog/'} className='nav-item active'>Home </Link>
                                 <Link to={'blogs'} className='nav-item'>Blog </Link>
                             </NavLink>
                         </ul>
